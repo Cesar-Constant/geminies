@@ -1,0 +1,23 @@
+.message-left{
+    align-self: flex-start;
+    background: var(--color-message-left);
+
+}
+
+.message-right{
+    align-self: flex-end;
+    background: var(--color-message-right);
+}
+
+.message-right, .message-left{
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+    .message-right, .message-left{
+        max-width: 45%;
+        font-size: 15px;
+    }
+}

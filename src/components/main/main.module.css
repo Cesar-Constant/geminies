@@ -1,0 +1,17 @@
+.main{
+    max-width: 1000px;
+    margin: 50px auto auto;
+    background: var(--color-bg-2);
+    display: flex;
+    padding: 20px;
+    min-height: calc(100vh - 40px);
+    flex: 1;
+}
+
+.messages-list{
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+}

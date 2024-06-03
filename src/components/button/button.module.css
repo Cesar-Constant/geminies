@@ -1,0 +1,14 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    border-radius: 16px;
+    width: fit-content;
+    cursor: pointer;
+    font: 400 15px / 20px var(--headline-8-font-family, "Google Sans", Roboto, arial, sans-serif, "Noto Color Emoji", "apple color emoji", "windows emoji", "windows symbol");
+    background-color: var(--color-button);
+    color: var(--color-bg-2);
+    gap: 10px;
+}

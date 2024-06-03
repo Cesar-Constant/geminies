@@ -1,0 +1,22 @@
+:root {
+    --color-bg-1: #f6dccf;
+    --color-bg-2: #FFEEE6;
+    --color-message-left: #FCFEFD;
+    --color-message-right: #F1E2A9;
+    --color-button: #EC9979;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body{
+    background: var(--color-bg-2);
+    display: flex;
+    width: 100%;
+}

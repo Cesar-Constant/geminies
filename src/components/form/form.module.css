@@ -1,0 +1,76 @@
+.text-container{
+    border: solid 2px var(--color-button);
+    border-radius: 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.text-container label{
+    position: absolute;
+    top: -11px;
+    left: 20px;
+    font: 400 15px / 20px var(--headline-8-font-family, "Google Sans", Roboto, arial, sans-serif, "Noto Color Emoji", "apple color emoji", "windows emoji", "windows symbol");
+    background: var(--color-bg-2);
+    padding: 0 5px;
+    color: var(--color-button);
+}
+
+.text-container input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+}
+
+.textarea-container{
+    border: solid 2px var(--color-button);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.textarea-container label{
+    position: absolute;
+    top: -11px;
+    left: 20px;
+    font: 400 15px / 20px var(--headline-8-font-family, "Google Sans", Roboto, arial, sans-serif, "Noto Color Emoji", "apple color emoji", "windows emoji", "windows symbol");
+    background: var(--color-bg-2);
+    padding: 0 5px;
+    color: var(--color-button);
+}
+
+.textarea-container textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+    max-width: 100%;
+    resize: none;
+    margin-top: 10px;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-container > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.character-form-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

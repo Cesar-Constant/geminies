@@ -1,0 +1,7 @@
+.aside-main{
+    background: var(--color-bg-1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
